@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "mat": "./app.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/marytheresa/matlab-clone/issues"
   },
-  "homepage": "https://github.com/marytheresa/matlab-clone#readme"
+  "homepage": "https://github.com/marytheresa/matlab-clone#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
 }
